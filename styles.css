@@ -267,3 +267,25 @@ body {
     }
 
 }
+
+@media (max-width:345px) {
+    
+    html {
+        font-size: 14px;
+    }
+
+    #card {
+        width: 297.5px;
+        height: 509.19px;
+    }
+
+    #card-text {
+        padding: 15px;
+    }
+
+    #social-networks {
+        width: 297.02px;
+        bottom: 55px;
+        right: 241.77px;
+    }
+}
