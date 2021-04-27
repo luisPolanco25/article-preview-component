@@ -290,3 +290,12 @@ body {
         right: 241.77px;
     }
 }
+
+@media (max-height:565px) {
+    body {
+        overflow: auto;
+    }
+    #card {
+        margin-bottom: 10px;
+    }
+}
