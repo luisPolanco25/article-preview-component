@@ -17,7 +17,11 @@ body {
 }
 
 #card {
-    margin: 100px auto 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -425px;
     background-color: #fff;
     width: 850px;
     height: 300px;
@@ -168,6 +172,8 @@ body {
     #card {
         width: 650px;
         height: 325px;
+        margin-top: calc(-325px / 2);
+        margin-left: -325px;
     }
 
     #share {
@@ -197,7 +203,8 @@ body {
         height: 539.19px;
         grid-template-columns: 100%;
         grid-template-rows: 40% 60%;
-        margin: 20px auto 0px auto;
+        margin-top: calc(-539.19px / 2);
+        margin-left: calc(-337.5px / 2);
     }
 
     #card-text {
@@ -278,6 +285,8 @@ body {
     #card {
         width: 297.5px;
         height: 509.19px;
+        margin-top: calc(-509.19px / 2);
+        margin-left: calc(-297.5px / 2);
     }
 
     #card-text {
@@ -294,8 +303,5 @@ body {
 @media (max-height:565px) {
     body {
         overflow: auto;
-    }
-    #card {
-        margin-bottom: 10px;
     }
 }
